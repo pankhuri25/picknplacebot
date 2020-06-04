@@ -76,7 +76,8 @@ while(Serial.available())
   {P2+=1;
   if(P2>12)
   P2=12;
-first.write(P2*15);d=6;}
+first.write(P2*15);d=6;
+  }
     if(d=="g")
   {P2-=1;
   if(P2<0)
